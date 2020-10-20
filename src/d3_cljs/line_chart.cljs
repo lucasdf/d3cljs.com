@@ -53,7 +53,7 @@
                  :information gen-name
                  :color-schema (gen/generate (s/gen ::d3cljs.color/str-chromatic-sequential))})))
 
-(defn reload []
+(defn ^:export reload []
   (-> (.getElementById js/document "app")
       (dom/removeChildren))
   (render-line-chart)

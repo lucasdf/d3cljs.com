@@ -73,7 +73,7 @@
               :color-schema (gen/generate (s/gen ::d3cljs.color/str-chromatic-categories))
               :operations annotations}))
 
-(defn reload []
+(defn ^:export reload []
   (-> (.getElementById js/document "app")
       (dom/removeChildren))
   (render-pie-basic)
