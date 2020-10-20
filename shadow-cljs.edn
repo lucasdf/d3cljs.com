@@ -1,0 +1,11 @@
+{:lein true
+ :dev-http {9090 "public/"}
+ :source-paths ["src", "resources"]
+ :builds {:app {:output-dir "public/js"
+                :asset-path "js"
+                :target :browser
+                :modules {:main {:entries [d3-cljs.server]}}
+                :compiler-options {:cross-chunk-method-motion false
+                                   :output-feature-set :es6}
+              }
+          }}

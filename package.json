@@ -1,0 +1,18 @@
+{
+  "name": "d3-cljs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^6.2.0",
+    "jstat": "^1.9.4",
+    "luxon": "1.25.0",
+    "react": "16.13.0",
+    "react-dom": "16.13.0"
+  }
+}

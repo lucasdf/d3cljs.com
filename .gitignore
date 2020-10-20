@@ -1,0 +1,3 @@
+node_modules/
+public/js/cljs-runtime
+.shadow-cljs/
